@@ -34,4 +34,4 @@ The Terms include a subscription section (auto-renewal, billing through Apple, c
 ## Contact
 
 Dosefold — Bo Chen  
-1436588172@qq.com
+erchen735@gmail.com
