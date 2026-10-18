@@ -234,6 +234,7 @@ h1 em { font-style: normal; color: var(--purple); }
 }
 .contact-band h2 { margin: 0 0 8px; font-size: 32px; letter-spacing: -.04em; }
 .contact-band p { margin: 0; color: var(--muted); font-size: 14px; max-width: 600px; }
+.contact-band .pro-note { margin-top: 10px; font-size: 12px; }
 .contact-actions { display: flex; gap: 10px; flex-wrap: wrap; flex: 0 0 auto; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 30px 0 42px; margin-top: 55px; }
