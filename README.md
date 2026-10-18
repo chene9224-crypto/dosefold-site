@@ -14,7 +14,7 @@ Public product website, Terms of Use and Privacy Policy for the Dosefold iPhone 
 
 Deployed with Cloudflare Pages project `dosefold-site`; production branch `main`.
 
-The site is static, uses no advertising cookies or tracking pixels, and has no framework or build step. Open `index.html` directly or serve this directory with any static file server.
+The site is static, uses no advertising cookies or tracking pixels, and has no app build step. `functions/_middleware.js` forwards only `/v1/*` to the FoodScan Worker so the native app can use the Pages hostname on networks where `workers.dev` is blocked; it stores no request content. Open `index.html` directly or serve this directory with any static file server.
 
 ## Structure
 
@@ -24,6 +24,7 @@ styles.css          Shared visual system
 assets/             App logo and favicon
 terms/index.html    Terms of Use
 privacy/index.html  Privacy Policy
+functions/          /v1/* FoodScan relay to the existing Worker
 ```
 
 ## Subscription copy
