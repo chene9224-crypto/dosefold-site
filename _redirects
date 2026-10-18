@@ -1,0 +1,5 @@
+# The public site serves only rendered pages and assets.
+# The README and repository metadata are source-control files, not public pages.
+/README.md / 301
+/.git/* / 404
+/.DS_Store / 404
