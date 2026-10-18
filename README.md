@@ -12,7 +12,7 @@ Public product website, Terms of Use and Privacy Policy for the Dosefold iPhone 
 - Terms: https://dosefold-site.pages.dev/terms/
 - Privacy: https://dosefold-site.pages.dev/privacy/
 
-The hosting URLs still use the original Pages project slug; they are unchanged by the rebrand.
+Deployed with Cloudflare Pages project `dosefold-site`; production branch `main`.
 
 The site is static, uses no advertising cookies or tracking pixels, and has no framework or build step. Open `index.html` directly or serve this directory with any static file server.
 
