@@ -33,5 +33,5 @@ The Terms include a subscription section (auto-renewal, billing through Apple, c
 
 ## Contact
 
-Dosefold — Bo Chen  
+Dosefold — Huiru Gao  
 erchen735@gmail.com
