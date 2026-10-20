@@ -29,7 +29,7 @@ functions/          /v1/* FoodScan relay to the existing Worker
 
 ## Subscription copy
 
-The Terms include a subscription section (auto-renewal, billing through Apple, cancellation, restore, refunds, trials, price shown before purchase, deleting the app does not cancel) and the Privacy Policy documents RevenueCat as subscription infrastructure. Both are written without stating a price, trial length, or plan features, because those are set in App Store Connect.
+The Terms include a subscription section (auto-renewal, billing through Apple, cancellation, restore, refunds, trials, price shown before purchase, deleting the app does not cancel) and the Privacy Policy documents RevenueCat as subscription infrastructure. The current commercial model is free download/browsing, with Pro required for creating/updating actual records, AI food analysis and interactive statistics. Existing records remain viewable; Restore Purchases, privacy/legal information, local data export/deletion and support are not locked. Weekly and one-time Lifetime are offered with the real price shown by Apple; no trial length or unlimited service is promised. This copy does not certify App Review, real purchase lifecycle or DSA verification.
 
 ## Contact
 

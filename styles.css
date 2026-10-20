@@ -303,3 +303,5 @@ h1 em { font-style: normal; color: var(--purple); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+.membership-note { max-width: 530px; margin: 18px 0 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
