@@ -89,6 +89,7 @@
 
       <h2>7. Subscriptions and RevenueCat</h2>
       <p>Dosefold Pro weekly subscriptions and one-time Lifetime purchases are sold through the App Store and processed by Apple. Apple handles payment and your App Store account. To validate and restore entitlements — that is, to determine whether a subscription is active or a Lifetime purchase grants access to the app — we use <strong>RevenueCat</strong> as subscription infrastructure.</p>
+      <p>To authorize a FoodScan AI request, our service associates the scan installation identifier with a server-assigned RevenueCat customer identifier and checks the corresponding Pro entitlement. The service does not receive your full journal, medication or Apple Health records as part of that check.</p>
       <p>When the app checks, makes or restores a purchase, Apple and RevenueCat may process:</p>
       <ul>
         <li><strong>An app user ID.</strong> RevenueCat generates a pseudonymous identifier for the app installation or app user. It is not your name, your email address or your Apple Account, and we do not ask you to create an account.</li>
