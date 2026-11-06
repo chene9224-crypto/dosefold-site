@@ -16,6 +16,14 @@ Deployed with Cloudflare Pages project `dosefold-site`; production branch `main`
 
 The site is static, uses no advertising cookies or tracking pixels, and has no app build step. `functions/_middleware.js` forwards only `/v1/*` to the FoodScan Worker so the native app can use the Pages hostname on networks where `workers.dev` is blocked; it stores no request content. Open `index.html` directly or serve this directory with any static file server.
 
+## Deploy and verify the relay
+
+Run `wrangler pages deploy` from this repository root, where `functions/` is located, and supply a separate allowlisted static output directory. Confirm the deployment reports that it compiled and uploaded the Functions bundle. Never upload `.git`, `.wrangler`, keys or local configuration as static assets.
+
+Check the deployment URL and production domain after promotion: unauthenticated `GET /v1/billing/identity` must return JSON with HTTP 401, and `POST /v1/installations` with `{}` must return JSON with HTTP 400. An HTML page or HTTP 405 means the relay is not working. Also verify home, privacy and terms, then test a signed installation and real App Store purchases on a device. A successful static page alone does not validate the API.
+
+On 2026-11-06 the missing Functions bundle was restored in production deployment `dce33ec0`; previously the 2026-10-29 static deployment returned HTML for API routes.
+
 ## Structure
 
 ```text
